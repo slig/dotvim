@@ -2,7 +2,7 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 
-let mapleader=','
+let mapleader='\'
 
 set t_Co=256
 
@@ -11,7 +11,7 @@ set nocompatible                  " Must come first because it changes other opt
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
-set wildignore+=*.o,*~,.lo,*.pyc
+set wildignore+=*.o,*~,.\o,*.pyc
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
@@ -81,3 +81,8 @@ nnoremap : ;
 
 vnoremap ; :
 vnoremap : ;
+
+noremap <leader>t :CommandT<cr>
+noremap <leader>b :CommandTBuffer<cr>
+
+

@@ -2,7 +2,7 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 
-let mapleader='\'
+let mapleader=','
 
 set t_Co=256
 
@@ -68,6 +68,13 @@ colorscheme railscasts2
 "map <leader>tf :tabfirst<cr>
 "map <leader>tl :tablast<cr>
 "map <leader>tm :tabmove
+
+
+" window movement
+nnoremap <leader>h <C-w>h
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
 
 
 " Re-select block after (de)indent

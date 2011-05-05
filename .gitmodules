@@ -14,3 +14,7 @@
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
     ignore = dirty
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
+    ignore = dirty

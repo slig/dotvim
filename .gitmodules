@@ -26,3 +26,6 @@
 	path = bundle/autoclose
 	url = https://github.com/Townk/vim-autoclose.git
     ignore = dirty
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git
